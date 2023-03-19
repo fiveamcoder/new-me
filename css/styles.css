@@ -19,6 +19,20 @@ body {
     font-size: 20px;
 }
 
+/* Font Awesome Styles */
+.fa-check {
+    color: #16D887;
+    width: 24px;
+}
+
+/* Common Title Styles */
+.same-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
 /* Banner Styles */
 .banner {
     background-image: url('../images/banner/banner3.png');
@@ -43,10 +57,35 @@ body {
     line-height: 26px;
     margin: 20px 0 30px 800px;
 }
-.banner-btn{
+
+.banner-btn {
     margin: 0px 200px 0 0;
 }
+
 /* Previous Year Styles */
+.previous-year {
+    max-width: 1072px;
+    display: flex;
+    max-height: 725px;
+    align-items: center;
+    gap: 80px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.failure-text{
+    color: #444343;
+    line-height: 26px;
+    margin: 25px 0 20px 0;
+}
+.failure-list li{
+    list-style: none;
+    color: #444343;
+    line-height: 26px;
+}
+.my-img {
+    width: 569px;
+}
+
 /* My Plans Styles */
 /* Call Action Styles */
 /* Footer Styles */
