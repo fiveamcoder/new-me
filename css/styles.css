@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Primary Button */
+.btn-primary {
+    height: 64px;
+    background: #FFFFFF;
+    color: #005FAC;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Banner Styles */
+.banner {
+    background-image: url('../images/banner/banner3.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+}
+
+.banner-title {
+    padding: 200px 200px 0 0;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-left: 800px;
+}
+
+.banner-text {
+    padding: 0px 200px 0 0;
+    color: #FFFFFF;
+    line-height: 26px;
+    margin: 20px 0 30px 800px;
+}
+.banner-btn{
+    margin: 0px 200px 0 0;
+}
+/* Previous Year Styles */
+/* My Plans Styles */
+/* Call Action Styles */
+/* Footer Styles */
