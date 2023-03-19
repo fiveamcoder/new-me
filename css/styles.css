@@ -96,7 +96,7 @@ body {
 .plan-list {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 75px;
 }
 
 .plan {
@@ -120,11 +120,34 @@ body {
 }
 
 /* Call Action Styles */
-.call-action{
+.call-action-container{
     background-image: url('../images/watch.png');
     background-repeat: no-repeat;
-    background-size:initial;
-    height: 300px;
+    position: relative;
+    margin: 130px 230px;
+    border: 0;
+    border-radius: 8px;
+}
+.call-action-container{
+    border: 0;
+    border-radius: 8px;
+}
+.call-action-container img{
+    max-width: 100%;
+}
+.call-action h3{
+    position: absolute;
+    top: 60px;
+    left: 65px;
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;color: #FFFFFF;
+right: 540px;
+}
+.call-action button{
+    position: absolute;
+    top: 175px;
+    left: 65px;
 }
 /* Footer Styles */
 .footer-container {
