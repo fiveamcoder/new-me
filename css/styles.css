@@ -17,6 +17,7 @@ body {
     border: 0;
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
 }
 
 /* Font Awesome Styles */
@@ -31,6 +32,7 @@ body {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
+    margin-top: 130px;
 }
 
 /* Banner Styles */
@@ -72,20 +74,106 @@ body {
     margin: 0 auto;
     margin-top: 130px;
 }
-.failure-text{
+
+.failure-text {
     color: #444343;
     line-height: 26px;
     margin: 25px 0 20px 0;
 }
-.failure-list li{
+
+.failure-list li {
     list-style: none;
     color: #444343;
     line-height: 26px;
 }
-.my-img {
-    width: 569px;
-}
 
 /* My Plans Styles */
+.my-plan>h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan-list {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan>h3 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 24px 0 16px 0;
+
+}
+
+.plan>p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
 /* Call Action Styles */
+.call-action{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size:initial;
+    height: 300px;
+}
 /* Footer Styles */
+.footer-container {
+    display: flex;
+    gap: 300px;
+    padding: 130px 230px;
+    background: #151414;
+}
+/* Contact Area */
+.contact h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.contact p {
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 15px 0 30px 0;
+}
+
+.contact a {
+    text-decoration: none;
+    margin-right: 15px;
+}
+/* Subscribe Area */
+.subscribe h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.subscribe input {
+    width: 280px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    padding: 10px 20px;
+    color: #F3F3F3;
+    font-size: 18px;
+    line-height: 21px;
+    background: #151414;
+    margin: 30px 0 15px 0;
+}
+
+.subscribe-btn {
+    color: #FFFFFF;
+    background: #005FAC;
+    border-radius: 8px;
+}
